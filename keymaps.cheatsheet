@@ -1,0 +1,100 @@
+.\" Cheatsheet page for Tmux keymaps.
+.\" Contact abderraoufbelalia@symplectic.link for more information.
+
+.TH man 7 "10 March 2024" "0.0" "Tmux Keymaps Cheatsheet"
+
+.SH NAME
+keymaps.cheatsheet
+
+.SH DESCRIPTION
+This document is meant for lookup and assistance while using Tmux with the configuration that comes with this 
+.I CHEATSHEET 
+file.
+
+.SH CONVENTIONS
+
+.B Leader 
+.I Ctrl+Space  
+
+.SH NOTE
+.PP
+You can prompt this page as a popup using,
+.I <Leader>Ctrl+G
+
+.SH SESSIONS
+
+Action marked with * are provided by `tmux-sessionist` pluging.
+
+.SS Create new session*
+.I <Leader>C
+
+.SS Kill session*
+.I <Leader>X
+
+.SS Rename session
+.I <Leader>$
+
+.SS List all sessions
+.I <Leader>s
+
+.SS Search a session*
+.I <Leader>g
+
+.SS Move to last session*
+.I <Leader>S
+
+.SH WINDOWS
+
+.SS Create new window 
+.I <Leader>c
+
+.SS Kill window
+.I <Leader>&
+
+.SS Rename window 
+.I <Leader>,
+
+.SS List all windows
+.I <Leader>w
+
+.SS Move to last window 
+.I <Leader>W
+
+.SH PANES
+
+.SS Vertical split
+.I <Leader>|
+
+.SS Horizontal split
+.I <Leader>-
+
+.SS Pane motion
+.I <Leader>[h|j|k|l]
+
+.SS Pane resize
+.I <Leader>[H|J|K|L]
+
+.SH COMMAND MODE
+
+.SS Toggle command mode
+.I <Leader>:
+
+.SH COPY MODE
+
+.SS Toggle copy mode
+.I <Leader>Esc
+
+.SS Start selection
+.I <Leader>Space
+
+.SS Finish selection
+.I <Leader>Enter
+
+.SS Paste clipboard
+.I <Leader>p
+
+.SH ISSUES
+No known issues.
+
+.SH AUTHOR
+Abderraouf Belalia<abderraoufbelalia@symplectic.link>

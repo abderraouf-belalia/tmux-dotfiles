@@ -93,6 +93,11 @@ Action marked with * are provided by `tmux-sessionist` pluging.
 .SS Paste clipboard
 .I <Leader>p
 
+.SH FZF MODE
+
+.SS Toggle fzf
+.I <Leader>F
+
 .SH ISSUES
 No known issues.
 
